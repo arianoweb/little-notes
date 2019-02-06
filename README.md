@@ -8,6 +8,8 @@ Instalación Manual:
 
 1. intalado previamente node.
 2. ejecutar git bash.
-3. Ejecutar npm install para inicializar el Servidor
-4. Ejecutar npm start
-5. Abrir Explorador en http://localhost:3030
+3. git clone https://github.com/arianoweb/little-notes.git
+4  ingresar a la carpeta creada.
+5. Ejecutar npm install para inicializar el Servidor
+6. Ejecutar npm start
+7. Abrir Explorador en http://localhost:3030
