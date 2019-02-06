@@ -1,0 +1,15 @@
+<nav class="navbar navbar-expand-md fixed-top shadow-bar">
+    <details-board  ></details-board>
+    <add-notes></add-notes>
+</nav>
+
+<div class="container">
+<div class="menu-grid" >
+
+    <div class="menu-button-grid {{maximizedNote}}" ng-repeat="nota in notas">
+        <note-single key="nota.$$hashKey" color='{{nota.color}}' accion="" title="{{nota.title}}" texto="{{nota.texto}}"></note-single>
+    </div>
+
+</div>
+</div>
+

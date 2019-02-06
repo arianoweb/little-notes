@@ -1,0 +1,16 @@
+
+<div class="{{color}}">
+        
+        <div id="title{{key}}" class="title" contentEditable='true' ng-blur="refreshText(key)">
+                {{title}} 
+                
+        </div>
+        <div ng-click="deleteNote(key)"> <i class='fas fa-trash-alt maximize'></i></div>
+        <div id="{{key}}" class="texto-box" contentEditable='true' ng-blur="refreshText(key)">
+                {{texto}}
+        </div>
+
+
+
+</div>
+
